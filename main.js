@@ -1,5 +1,5 @@
 const botaoA = document.querySelector("button");
-botaoA.addEventListener("click",alteraTexto);
+botaoA.onclick = alteraTexto();
 
 function alteraTexto(){
   botaoA.textContent = "hehe";
