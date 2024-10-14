@@ -1,5 +1,5 @@
 const botaoA = document.querySelector("button");
-botaoA.onClick = () => {
+botaoA.onClick(function(){
   botaoA.textContent = "hehe"  
-}
+})
 
