@@ -3,6 +3,7 @@ button {
   color:rgb(0,156,108);
   font-weight:2px;
   border-width: 1px;
+  margin-left: 2em;
 }
 table, th, td {
   border: 1px solid black;
