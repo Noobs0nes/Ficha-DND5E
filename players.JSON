@@ -1,0 +1,22 @@
+{
+    "players":
+    [
+        {
+            "personagem":{
+                "nome":"Buck",
+                "vida": {
+                    "total":32,
+                    "atual":32
+                },
+                "stats":{
+                    "str":8,
+                    "dex":10,
+                    "con":14,
+                    "int":16,
+                    "wis":13,
+                    "cha":12
+                }
+            } 
+        }
+    ]
+}
