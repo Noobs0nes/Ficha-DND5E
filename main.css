@@ -1,5 +1,6 @@
-.botao {
-font-size: 50px;
-background-color:Tomato;
-color:SlateBlue;
+button {
+  font-size: 15px;
+  color:rgb(0,156,108);
+  font-weight:2px;
+  border-width: 1px;
 }
