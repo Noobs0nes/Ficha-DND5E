@@ -1,4 +1,5 @@
 const botaoA = document.querySelector("button");
-botaoA.onclick = ()=>{
-  botaoA.textContent = "hehe";
+
+botaoA.onclick = () => {
+  var nome = prompt("Qual seu nome?");
 }
