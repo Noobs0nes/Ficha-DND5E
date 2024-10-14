@@ -1,0 +1,1 @@
+const botaoA =document.getElementById("botaoA")
