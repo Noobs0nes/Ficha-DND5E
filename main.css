@@ -4,8 +4,15 @@ button {
   font-weight:2px;
   border-width: 1px;
   margin-left: 2em;
+  align-content: center;
 }
+body {
+  background-color:black ;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  background-color: azure;
+  color: aqua;
 }
