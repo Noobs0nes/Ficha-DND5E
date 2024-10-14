@@ -1,4 +1,5 @@
-const botaoA = document.getElementById("botaoA");
+const botaoA = document.querySelector("button");
 botaoA.onClick = () => {
-  document.getElementById("name_var").innerHTML = "hehe";
+  botaoA.textContent = "hehe"  
 }
+
