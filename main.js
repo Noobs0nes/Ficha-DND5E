@@ -1,1 +1,1 @@
-const botaoA =document.getElementById("botaoA")
+const botaoA = document.getElementById("botaoA").innerHTML;
