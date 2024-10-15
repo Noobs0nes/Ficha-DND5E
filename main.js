@@ -1,6 +1,6 @@
 const botaoA = document.querySelector("button");
 const td11 = document.getElementById("abcd");
-import data from "/players.JSON";
+import data from "./players.JSON";
 let header2 = document.querySelector("h2");
 header2.textContent = "Não sei oq ta acontecendo!";
 botaoA.onclick = () => {
