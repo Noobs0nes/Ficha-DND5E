@@ -4,6 +4,5 @@ const td11 = document.getElementById("abcd");
 
 botaoA.onclick = () => {
   var nome = prompt("Qual seu nome?",null);
-  td11.textContent = nome;
-  //botaoA.textContent = JSON.stringify(json);
+  td11.textContent = JSON.stringify(json);
 }
