@@ -1,7 +1,8 @@
 const botaoA = document.querySelector("button");
-let json = require("./players.json");
-let json =await  Response(await fetch(new Request("./players.JSON")));
+
+let json_var =await fetch(new Request("./players.JSON")).json();
+
 botaoA.onclick = () => {
   var nome = prompt("Qual seu nome?",null);
-  botaoA.textContent =  "a"//JSON.stringify(json);
+  botaoA.textContent = JSON.stringify(json);
 }
