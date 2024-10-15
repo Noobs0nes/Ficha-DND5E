@@ -18,6 +18,7 @@ footer  {
   background-color: blueviolet;
   color: white;
   font-size: large;
+  text-align: center;
 }
 
 table, th, td {
