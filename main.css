@@ -14,6 +14,12 @@ h1 {
   text-align: center;
 }
 
+footer  {
+  background-color: blueviolet;
+  color: white;
+  font-size: large;
+}
+
 table, th, td {
   border: 1px solid rgb(0,156,56);
   border-collapse: collapse;
