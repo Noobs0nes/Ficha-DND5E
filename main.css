@@ -13,6 +13,11 @@ h1 {
   color: ghostwhite;
   text-align: center;
 }
+h2 {
+  text-align: center;
+  font-size: 78px;
+  color: chartreuse;
+}
 
 footer  {
   background-color: blueviolet;
