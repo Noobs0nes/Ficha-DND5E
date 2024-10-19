@@ -43,12 +43,13 @@ footer {
 
 header{
   position: fixed;
-}
-
-.titlebar {
+  width: 100%;
+  height: 50px;
+  min-height: 25px;
+  overflow-wrap: anywhere;
   background-color: rgba(0, 0, 0, 0.8);
   color: antiquewhite;
-  height: 50px;
+  
 }
 
 .titlebarIco {
@@ -60,4 +61,17 @@ header{
 .headerButtons {
   margin-left: 5px;
   vertical-align: middle;
+  max-width: fit-content; 
+  display: inline-block;
+}
+
+.headerText {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.statsTable {
+  column-width: 70px;
+  background-color: cadetblue;
+  border: 2px solid black;
 }

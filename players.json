@@ -1,0 +1,114 @@
+{
+    "mello": {
+        "nivel": 6,
+        "player": "Mariana",
+        "classe": {
+            "nome": "Feiticeira",
+            "subclasse": "Lua"
+        },
+        "raca": {
+            "nome": "Elfo",
+            "bonus": [
+                "D"
+            ]
+        },
+        "vida": {
+            "total": 27,
+            "atual": 27
+        },
+        "spell": {
+            "conhecidos": {
+                "A": [
+                    "sono",
+                    "escuridão",
+                    "imagem silenciosa"
+                ],
+                "B": [
+                    "Nuvem de Adagas",
+                    "Patas de Aranha",
+                    "Advento"
+                ],
+                "C": [
+                    "Nevasca",
+                    "Bola de Fogo"
+                ],
+                "D": [],
+                "E": [],
+                "F": [],
+                "G": [],
+                "H": [],
+                "I": [],
+                "Z": [
+                    "Raio de Gelo",
+                    "Ataque Certeiro",
+                    "Raio de Fogo",
+                    "Amizade",
+                    "Toque Arrepiante"
+                ]
+            },
+            "preparados": {
+                "A": [],
+                "B": [],
+                "C": [],
+                "D": [],
+                "E": [],
+                "F": [],
+                "G": [],
+                "H": [],
+                "I": [],
+                "Z": []
+            },
+            "slots": {
+                "A": {
+                    "total": 4,
+                    "used": 0,
+                    "extra": 0
+                },
+                "B": {
+                    "total": 3,
+                    "used": 0,
+                    "extra": 0
+                },
+                "C": {
+                    "total": 3,
+                    "used": 0,
+                    "extra": 0
+                },
+                "D": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "E": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "F": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "G": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "H": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "I": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                }
+            }
+        },
+        "inv":{
+            "armas":["Adaga"],
+            ""
+        }
+    }
+}

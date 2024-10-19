@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "A": "Força",
+        "B": "Destreza",
+        "C": "Constituição",
+        "D": "Inteligência",
+        "E": "Sabedoria",
+        "F": "Carisma"
+    },
+    "spell": {
+        "nivel": {
+            "A": "1 Circulo",
+            "B": "2 Circulo",
+            "C": "3 Circulo",
+            "D": "4 Circulo",
+            "E": "5 Circulo",
+            "F": "6 Circulo",
+            "G": "7 Circulo",
+            "H": "8 Circulo",
+            "I": "9 Circulo",
+            "Z": "Truques"
+        }
+    }
+}

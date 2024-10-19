@@ -9,14 +9,53 @@
 
 <body>
     <header class="titlebar">
-        <div class="headerButtons">
-            <a href="/index.html">
-                <img src="/icons/return.png" alt="Voltar" class="titlebarIco">
-            </a>
-        </div>
-        <div class="headertext" style="text-align: center;">
-
-        </div>
+        <table>
+            <tr style="line-height: 5px;">
+                <td>
+                    <div class="headerButtons">
+                        <a href="/index.html">
+                            <img src="/icons/return.png" alt="Voltar" class="titlebarIco">
+                        </a>
+                    </div>
+                </td>
+                <td style="width:95vw;text-align: center;">
+                    <div class="headerText">
+                        <h1 id="tituloPagina"> ???</h1>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </header>
+    <br><br>
+    <table class="statsTable">
+        <tr class="statsTable">
+            <th>Habilidade</th>
+            <th>Valor</th>
+        </tr>
+        <tr class="statsTable">
+            <td>Força</td>
+            <td><input type="number" min="1" max="20" style="width: 70px;"></td>
+        </tr>
+        <tr>
+            <td>Destreza</td>
+            <td><input type="number" min="1" max="20" style="width: 70px;"></td>
+        </tr>
+        <tr>
+            <td>Constituição</td>
+            <td><input type="number" min="1" max="20" style="width: 70px;"></td>
+        </tr>
+        <tr>
+            <td>Inteligência</td>
+            <td><input type="number" min="1" max="20" style="width: 70px;"></td>
+        </tr>
+        <tr>
+            <td>Sabedoria</td>
+            <td><input type="number" min="1" max="20" style="width: 70px;"></td>
+        </tr>
+        <tr>
+            <td>Carisma</td>
+            <td><input type="number" min="1" max="20" style="width: 70px;"></td>
+        </tr>
+    </table>
     <script src="./player.js"></script>
 </body>
