@@ -1,14 +1,39 @@
 const botaoA = document.querySelector("button");
 const td11 = document.getElementById("abcd");
-//import data from "./players.JSON";
 let header2 = document.querySelector("h2");
-header2.textContent = "Não sei oq ta acontecendo!";
-botaoA.onclick = () => {
-  alert("Botão !")
-  require("./players.JSON")
-  alert("Deu boa?")
-  header2.textContent = json_var.players[0].nome;
-  //var nome = prompt("Qual seu nome?",null);
-  alert(json_var);
-  td11.textContent = JSON.stringify(json_var);
-}
+localStorage.setItem("ObjetoPlayers",{
+  "buck":{
+    "raça":{
+      "humano":{
+        "bonus":{ 
+          "stats":[["STR","DEX","CON","INT","WIS","CHA"],
+                   [  1  ,  1  ,  1  ,  1  ,  1  ,  1  ]],
+          "any": true
+        }
+      }
+    },
+    "vida":{
+      "atual":34,
+      "total":34
+    },
+    "spells":{
+      "slots":{
+        "1":4,
+        "2":3,
+        "3":3
+      },
+      "list":{
+        "1":["WIP"],
+        "2":["WIP"],
+        "3":["WIP"],
+        "4":["WIP"],
+        "5":["WIP"],
+        "6":["WIP"],
+        "7":["WIP"],
+        "8":["WIP"],
+        "9":["WIP"]
+      }
+    }
+
+  }
+})

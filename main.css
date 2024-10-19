@@ -1,34 +1,63 @@
 button {
-  font-size: 110px;
-  color:rgb(0,156,108);
-  font-weight:2px;
-  border-width: 1px;
-  margin-left: 2em;
+  font-size: 35px;
+  color: rgb(170, 150, 255);
+  background-color: darkblue;
+  font-weight: 2px;
+  margin-left: 5px;
+  border: 1px solid white;
   align-content: center;
+  border-radius: 5px;
 }
+button:hover {
+  background-color:rgb(170, 150, 255);
+  color: darkblue;
+  border-color: blueviolet;
+  
+}
+
 body {
-  background-color:rgb(0,0,60) ;
+  background-color: rgb(0, 0, 60);
 }
+
 h1 {
   color: ghostwhite;
   text-align: center;
 }
+
 h2 {
   text-align: center;
   font-size: 78px;
   color: chartreuse;
 }
 
-footer  {
+footer {
   background-color: blueviolet;
   color: white;
   font-size: large;
   text-align: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width:100%;
 }
 
-table, th, td {
-  border: 1px solid rgb(0,156,56);
-  border-collapse: collapse;
-  background-color: azure;
-  color: black;
+header{
+  position: fixed;
+}
+
+.titlebar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: antiquewhite;
+  height: 50px;
+}
+
+.titlebarIco {
+  height: 35px;
+  margin-top: 7.5px;
+
+}
+
+.headerButtons {
+  margin-left: 5px;
+  vertical-align: middle;
 }
