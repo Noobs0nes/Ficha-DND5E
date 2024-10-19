@@ -106,9 +106,109 @@
                 }
             }
         },
-        "inv":{
-            "armas":["Adaga"],
-            ""
+        "inv": {
+            "armas": [
+                "Adaga"
+            ],
+            "itens": []
+        }
+    },
+    "hercule": {
+        "nivel": 6,
+        "player": "Henrique",
+        "classe": {
+            "nome": "Barbaro",
+            "subclasse": "Berserker"
+        },
+        "raca": {
+            "nome": "Goliath",
+            "bonus": [
+                "D"
+            ]
+        },
+        "vida": {
+            "total": 67,
+            "atual": 67
+        },
+        "spell": {
+            "conhecidos": {
+                "A": [],
+                "B": [],
+                "C": [],
+                "D": [],
+                "E": [],
+                "F": [],
+                "G": [],
+                "H": [],
+                "I": [],
+                "Z": []
+            },
+            "preparados": {
+                "A": [],
+                "B": [],
+                "C": [],
+                "D": [],
+                "E": [],
+                "F": [],
+                "G": [],
+                "H": [],
+                "I": [],
+                "Z": []
+            },
+            "slots": {
+                "A": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "B": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "C": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "D": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "E": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "F": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "G": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "H": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                },
+                "I": {
+                    "total": 0,
+                    "used": 0,
+                    "extra": 0
+                }
+            }
+        },
+        "inv": {
+            "armas": [
+                "GreatAxe",
+                "Hatchets"
+            ],
+            "itens": []
         }
     }
 }

@@ -1,0 +1,54 @@
+:root{
+    --WIDTHVIDA:100%;
+}
+
+img {
+    position: absolute;
+}
+
+.portrait {
+    top: 29px;
+    left: 29px;
+}
+
+.nome {
+    position: absolute;
+    top: 30px;
+    left: 340px;
+    font-size: 55px;
+}
+
+.displayVida {
+    position: absolute;
+    top: 135px;
+    left: 407px;
+    font-size: 50px;
+    font-weight:bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.barraDeVida {
+    position: absolute;
+    top: 141px;
+    left: 275px;
+    width: 454px;
+    height: 58px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+.barraVidaAtual{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: var(--WIDTHVIDA);
+    height: 58px;
+    background-color: rgb(243, 9, 9);
+}
+.barraVidaFundo {
+    position: absolute;
+    top: 141px;
+    left: 275px;
+    height: 58px;
+
+    background-color: rgb(63, 10, 10);
+    border-bottom-right-radius: 50px;
+}
