@@ -45,8 +45,8 @@ img {
 }
 .barraVidaFundo {
     position: absolute;
-    top: 141px;
-    left: 275px;
+    top: 0px;
+    left: 0px;
     height: 58px;
 
     background-color: rgb(63, 10, 10);
