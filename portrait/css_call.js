@@ -1,3 +1,2 @@
 function changeCssVar(value){
-    
 }
